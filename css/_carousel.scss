@@ -1,0 +1,60 @@
+.carousel {
+    max-width: 100%;
+}
+
+.slider-inner {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    position: relative;
+    margin: 80px auto;
+    padding: $pad;
+
+    .person-img {
+        display: block;
+        width: 380px;
+        height: 380px;
+    }
+
+    .quotes {
+        position: relative;
+        left: 10%;
+        transform: translateX(-20%);
+    }
+
+    .info {
+        text-align: center;
+        margin: 0;
+        position: relative;
+        top: -35px;
+
+        .text {
+            display: block;
+            margin: 0;
+            opacity: 0.7;
+        }
+
+        .text-bold {
+            margin-bottom: 0;
+            color: $darkblue;
+            font-weight: 700;
+        }
+
+        .text-fade {
+            margin: 0;
+            color: $grayblue;
+        }
+    }
+
+    .curve {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.active {
+    display: flex;
+}
